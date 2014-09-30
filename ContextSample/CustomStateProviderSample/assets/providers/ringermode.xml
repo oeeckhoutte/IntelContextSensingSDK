@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Provider name="RINGER_MODE">
+    <URI>urn:x-intel:context:type:custom:ringermode</URI>
+    <Class>com.intel.samples.ringermodeprovider.RingerModeProvider</Class>
+    <Description>Provides new states when the device's ringer mode changes.</Description>
+</Provider>

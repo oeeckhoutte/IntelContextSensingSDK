@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Simple Context Source Configuration -->
+
+<ProviderCfg xmlns="http://schema.intel.com/context-framework/provider-config">
+
+  <Source Id="{11111111-EEEE-2222-FFFF-000000000000}">
+    <Description>Simple Context Source</Description>
+    <Version>0.0.1</Version>
+    <URI>libSimpleContextSource.so</URI>
+    <LoadOnDemand>true</LoadOnDemand>
+    <NotificationFrequency>3</NotificationFrequency>
+  </Source>
+
+  <Identifiers>
+    <Identifier name="Platform.Examples.SimpleContext">
+      <Description>Simple Context Source</Description>
+      <Schema></Schema>
+      <TimeProjectionWindow>0</TimeProjectionWindow>
+      <LocationProjectionRadius>0</LocationProjectionRadius>
+    </Identifier>
+  </Identifiers>
+</ProviderCfg>

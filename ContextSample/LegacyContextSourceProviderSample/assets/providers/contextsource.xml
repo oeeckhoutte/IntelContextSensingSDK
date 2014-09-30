@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Provider name="RULE_CONTEXT_SOURCE">
+    <URI>urn:x-intel:context:type:custom:source</URI>
+    <Class>com.intel.sample.contextsource.ContextSourceProvider</Class>
+    <Description>Sample Context Source as provider</Description>
+    <Library>x86/libSimpleContextSource.so</Library>
+</Provider>
+

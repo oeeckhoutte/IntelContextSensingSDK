@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Provider name="RULE_CONTEXT_SOURCE">
+    <URI>urn:x-intel:context:type:custom:rulecontext</URI>
+    <Class>com.intel.sample.legacyrulecontextsource.RuleContextSourceProvider</Class>
+    <Description>Sample Rule Context Source as provider</Description>
+    <Library>x86/libRuleSimpleContextSource.so</Library>
+</Provider>
+
